@@ -8,9 +8,9 @@ api_token = "https://accounts.spotify.com/api/token"
 # insert of credentials
 
 auth_response = requests.post(api_token, {
-    'grant_type': 'client_credentials',
-    'client_id': 'b8825592694d44ff931de94815506588',
-    'client_secret': "bf8817f12a544a58ba755c45d858fdb3",
+    'grant_type': "client_credentials",
+    'client_id': "Insert Client ID here",
+    'client_secret': "Insert Client Secret here",
 })
 
 # authentication
